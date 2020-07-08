@@ -1,0 +1,26 @@
+@charset "utf-8";
+.find a{
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    margin-top: 200px;
+    background-image: url('login.jpg');
+}
+
+.log{
+    font-size: 90px;
+}
+.id{
+    font-size: 30px;
+    margin-bottom: 0;
+    
+}
+input{
+     width: 200px;
+     height: 40px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+}

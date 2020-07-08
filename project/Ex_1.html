@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>오조오죠_travel</title>
+</head>
+<body>
+    <p class="top" align="right" >
+        <a href="file:///C:/Users/Student/Desktop/login.html#">로그인</a> | <a href="#">회원가입</a> | <a href="#">회원관리</a></p>
+    <div class="container">
+        <header>
+            <!-- <h1>Ohjo_travel</h1>
+            <h2>오조오죠 여행사 wow</h2> -->
+            <img src="imgba.jpg" id="img">
+        </header>
+        <nav class="navi">
+            <ul>
+                <li><a href="#">국내여행</a></li>
+                <li><a href="#">복불복 여행지</a></li>
+                <li><a href="#">추천지</a></li>
+                <li><a href="#">숙소</a></li>
+                <li><a href="#">항공권</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <section class="content">
+                <h2>빠르게 항공권 예약</h2>		
+                
+                <input type="radio" name="rad" >왕복			
+                <input type="radio" name="rad" >편도
+                <br>
+                <label>출발지 : </label><input type="text"  name="dep" placeholder="미연이 마음속">
+                <label>도착지 : </label><input type="text"  name="dep" placeholder="수현이 마음속">
+                <label>가는날 : </label><input type="text"  name="dep" placeholder="안나생일">
+                <label>좌석등급 : </label>
+                <select>
+                    <option>일반석</option>
+                    <option>비즈니스석</option>
+                    <option>일등석</option>
+                </select>
+                <label>인원 : </label>
+                <select>
+                    <script>
+                        var i;
+                        for(i=1;i<10;i++){
+                            document.write("<option>"+"성인 / "+i+"명"+"</option>");
+                        }
+                    </script>
+                </select>
+                <select>
+                    <script>
+                        var i;
+                        for(i=1;i<10;i++){
+                            document.write("<option>"+"아동 / "+i+"명"+"</option>");
+                        }
+                    </script>
+                </select>
+                <select>
+                    <script>
+                        var i;
+                        for(i=1;i<10;i++){
+                            document.write("<option>"+"유아 / "+i+"명"+"</option>");
+                        }
+                    </script>
+                </select>
+                <label>
+                    <input type="submit" value="검색">
+                </label>
+            </section>	
+    </article>
+
+    <footer>
+        <p>대전광역시 동구 우암로 352-21 폴리텍대학교 &nbsp;&nbsp;(주)Ohjo_travel</p>				
+        <p> inspired 오뚜현 &nbsp; Copyright ⓒ. All rights reserved.</p>      
+    </footer>
+</div>
+</body>
+</html>
